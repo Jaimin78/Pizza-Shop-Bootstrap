@@ -96,6 +96,9 @@
 .container{
     color: white;
 }
+.m-top{
+    Margin-top:5px;
+}
 @media only screen and (max-width: 985px){
     .sec{
         flex-direction: column;
@@ -106,8 +109,5 @@
     }
     .paras{
         padding: 0;
-    }
-    .carousel{
-        Height:80%;
     }
 }
