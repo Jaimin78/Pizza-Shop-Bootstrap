@@ -1,0 +1,111 @@
+.body{
+    background-color: black;
+}
+.sec{
+    /* height: 350px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 85%;
+    margin: auto;
+    padding: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Left{
+    flex-direction: row-reverse;
+}
+
+.thumbnail img{
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.paras{
+    color: blanchedalmond;
+    padding: 0px 40px;
+}
+
+.sectionTag{
+    font-family: system-ui;
+}
+
+.sectionSubTag{
+    font-family: monospace;
+}
+
+.center{
+    text-align: center;
+}
+.text-big{
+    font-size: larger;
+    background-color: cadetblue;
+}
+.card-img-top{
+    height: 60%;
+}
+.card-img-top:hover{
+    background-color: darkcyan;
+}
+.footer{
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
+.veg{
+    background:linear-gradient(50deg, green, #06eb3700);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.non-veg{
+        background:linear-gradient(50deg, red, #06eb3700);
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+}
+.p{
+    color: blanchedalmond;   
+}
+.price{
+    color: white;
+    font-size: 25px;
+    background-color: darkslategrey;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tag{
+    color: white;
+    background:linear-gradient(50deg, green, #06eb3700);
+    text-align: center;
+    font-family:cursive;
+}
+.tag-nonveg{
+    color: white;
+    background:linear-gradient(50deg, red, #06eb3700);
+    text-align: center;
+    font-family:cursive;
+}
+.contect{
+    background:linear-gradient(50deg, rgb(21, 189, 219), #06eb3700);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    color: white;
+}
+@media only screen and (max-width: 985px){
+    .sec{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .carousel-item img{
+        height: 80%;
+    }
+    .paras{
+        padding: 0;
+    }
+
+}
